@@ -52,7 +52,7 @@ Los JSON de `results/` guardan las ejecuciones originales de Garcés y las verif
 
 ## Reportes
 
-- `../Informe_Proyecto_4_Ampliado.pdf`: informe de esta entrega.
+- `../Proyecto_4___TNEP_Bilevel.pdf`: informe de esta entrega.
 - `reports/formulation_implementation.md`: ecuaciones, equivalencia primal-dual, linealización y trazabilidad de datos.
 - `reports/garces_validation.md`: Garver y comparación clásica.
 - `reports/rts24_validation.md`: RTS-24 sin y con contingencias, incluido diagnóstico de Tabla X.
