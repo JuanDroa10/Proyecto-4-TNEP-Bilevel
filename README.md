@@ -52,8 +52,7 @@ Los JSON de `results/` guardan las ejecuciones originales de Garcés y las verif
 
 ## Reportes
 
-- `../Informe_Proyecto_4_Ampliado.pdf`: informe ampliado de esta entrega; fuente editable en `../Overleaf_Proyecto_4/`.
-- `reports/Informe_Proyecto_4.md`: versión previa en Markdown; la versión final editable está en `../Overleaf_Proyecto_4/`.
+- `../Informe_Proyecto_4_Ampliado.pdf`: informe de esta entrega.
 - `reports/formulation_implementation.md`: ecuaciones, equivalencia primal-dual, linealización y trazabilidad de datos.
 - `reports/garces_validation.md`: Garver y comparación clásica.
 - `reports/rts24_validation.md`: RTS-24 sin y con contingencias, incluido diagnóstico de Tabla X.
