@@ -1,0 +1,21 @@
+{
+  "source": "Heydari and Barforoushi (2024), Sections 4.1.1-4.1.2, Table 3, Table 4, Fig. 2",
+  "demand_coefficient": 2.2,
+  "demand_base_source": "Garces2009_TableII demand block sizes",
+  "load_block_profile_source": "manual digitization from Heydari2024_Fig2",
+  "wind_bus4_capacity_mw": 500,
+  "wind_bus6_capacity_mw": 500,
+  "wind_bus6_intensity_multiplier": 1.1,
+  "wind_offer_usd_mwh": 0,
+  "max_hvac_circuits_per_corridor": 4,
+  "max_hvdc_circuits_per_corridor": 2,
+  "load_shedding_cost_multiplier": 10,
+  "interest_rate": 0.1,
+  "investment_lifetime_years": 25,
+  "investment_budget_reported_MUSD": 400,
+  "alpha_case4": 0.8,
+  "beta_case4": 5,
+  "hvac_network_reconstruction": "Garces2009_TableI; costs remain EUR from Garces unless separately converted",
+  "hvdc_parameters_status": "not provided in article tables; do not infer",
+  "currency_comparability_status": "Heydari reports USD while Garces source line costs are EUR; cannot compare investment levels until the precise original line costs/currency basis are recovered"
+}

@@ -1,0 +1,4 @@
+scenario,weight,bus_1_factor,bus_2_factor,bus_3_factor,bus_4_factor,bus_5_factor,bus_6_factor,line_outage,source
+1,0.50,1.0,1.0,1.0,1.0,1.0,1.0,,Garces2009_TableIII_p1518
+2,0.25,1.0,1.2,1.0,1.0,1.2,1.0,,Garces2009_TableIII_p1518
+3,0.25,1.4,1.0,1.0,1.4,1.0,1.0,,Garces2009_TableIII_p1518

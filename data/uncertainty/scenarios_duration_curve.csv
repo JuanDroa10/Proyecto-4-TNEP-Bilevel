@@ -1,0 +1,6 @@
+scenario_id,load_factor_pu,weight,method
+L1,0.914,0.1141552511415525,duration_curve
+L2,0.773,0.3424657534246575,duration_curve
+L3,0.634,0.3424657534246575,duration_curve
+L4,0.479,0.1141552511415525,duration_curve
+L5,0.334,0.0867579908675799,duration_curve

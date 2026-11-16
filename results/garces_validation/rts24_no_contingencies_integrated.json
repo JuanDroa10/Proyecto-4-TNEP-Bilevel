@@ -1,0 +1,38 @@
+{
+  "termination": "optimal",
+  "objective_eur": 740478504.9046031,
+  "investment_eur": 22987720.0,
+  "investment_MEUR": 22.98772,
+  "crf": 0.1,
+  "plan": [
+    {
+      "from_bus": 6,
+      "to_bus": 10,
+      "slot": 1
+    },
+    {
+      "from_bus": 10,
+      "to_bus": 11,
+      "slot": 2
+    },
+    {
+      "from_bus": 11,
+      "to_bus": 13,
+      "slot": 1
+    },
+    {
+      "from_bus": 14,
+      "to_bus": 23,
+      "slot": 1
+    }
+  ],
+  "scenario_social_welfare_MEUR_per_hour": {
+    "1": 0.08397330101330264,
+    "2": 0.0827898706413164,
+    "3": 0.08843123368121218
+  },
+  "expected_social_welfare_MEUR_per_year": 742.7772769046032,
+  "solver": "HiGHS via Pyomo appsi_highs",
+  "objective_mode": "aligned_welfare",
+  "wall_time_s": 4.355577300000732
+}

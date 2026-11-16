@@ -1,0 +1,19 @@
+{
+  "case": "Modified IEEE RTS-24, Garces et al. (2009), Sections IV-A/B",
+  "currency": "EUR",
+  "investment_budget_no_contingencies_MEUR": 23,
+  "investment_budget_multicontingency_MEUR": 30,
+  "annual_hours_sigma": 8760,
+  "minimum_demand_fraction": 0.9,
+  "load_shedding_cost_multiplier": 100,
+  "interest_rate": 0.1,
+  "investment_lifetime_years": 25,
+  "capital_recovery_factor_report_reproduction": 0.1,
+  "max_circuits_per_corridor": 3,
+  "existing_corridors": 34,
+  "candidate_corridors": 7,
+  "network_base_mva": 100,
+  "network_source": "Garces thesis 2010, Appendix A.3, Table A.3, PDF page 143 (printed p.141)",
+  "market_source": "Garces 2009, Table VI (PDF page 8 / printed p.1520)",
+  "transcription_status": "preliminary; 17 demand nodes in market table and thesis agree"
+}

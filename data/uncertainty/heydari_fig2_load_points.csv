@@ -1,0 +1,6 @@
+load_block,hours_start,hours_end,duration_hours,load_factor_pu,source_pixel_y,estimated_error_pu,source
+1,0,1000,1000,0.914,411.5,0.01,Heydari2024_Fig2_pdf_page8_manual_digitization
+2,1000,4000,3000,0.773,567.5,0.01,Heydari2024_Fig2_pdf_page8_manual_digitization
+3,4000,7000,3000,0.634,720.5,0.01,Heydari2024_Fig2_pdf_page8_manual_digitization
+4,7000,8000,1000,0.479,892.5,0.01,Heydari2024_Fig2_pdf_page8_manual_digitization
+5,8000,8760,760,0.334,1052.5,0.01,Heydari2024_Fig2_pdf_page8_manual_digitization

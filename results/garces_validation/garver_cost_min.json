@@ -1,0 +1,94 @@
+[
+  {
+    "scenario": "1",
+    "plan": [
+      {
+        "from_bus": 2,
+        "to_bus": 3,
+        "slot": 2
+      },
+      {
+        "from_bus": 2,
+        "to_bus": 6,
+        "slot": 1
+      },
+      {
+        "from_bus": 2,
+        "to_bus": 6,
+        "slot": 2
+      },
+      {
+        "from_bus": 3,
+        "to_bus": 5,
+        "slot": 1
+      }
+    ],
+    "investment_MEUR": 19.307999999999964,
+    "scenario_social_welfare_MEUR_per_year": 276.451171764706,
+    "average_social_welfare_MEUR_per_year": -2613.0260642714793,
+    "classic_objective_eur": 19307999.999999963
+  },
+  {
+    "scenario": "2",
+    "plan": [
+      {
+        "from_bus": 2,
+        "to_bus": 3,
+        "slot": 1
+      },
+      {
+        "from_bus": 3,
+        "to_bus": 5,
+        "slot": 1
+      },
+      {
+        "from_bus": 4,
+        "to_bus": 6,
+        "slot": 1
+      },
+      {
+        "from_bus": 4,
+        "to_bus": 6,
+        "slot": 2
+      },
+      {
+        "from_bus": 4,
+        "to_bus": 6,
+        "slot": 3
+      }
+    ],
+    "investment_MEUR": 25.100399999999986,
+    "scenario_social_welfare_MEUR_per_year": 307.79136,
+    "average_social_welfare_MEUR_per_year": 292.714086,
+    "classic_objective_eur": 25100399.999999985
+  },
+  {
+    "scenario": "3",
+    "plan": [
+      {
+        "from_bus": 2,
+        "to_bus": 6,
+        "slot": 3
+      },
+      {
+        "from_bus": 3,
+        "to_bus": 5,
+        "slot": 1
+      },
+      {
+        "from_bus": 4,
+        "to_bus": 6,
+        "slot": 2
+      },
+      {
+        "from_bus": 4,
+        "to_bus": 6,
+        "slot": 3
+      }
+    ],
+    "investment_MEUR": 21.2388,
+    "scenario_social_welfare_MEUR_per_year": 303.18924533333336,
+    "average_social_welfare_MEUR_per_year": -423.5744989152024,
+    "classic_objective_eur": 21238800.0
+  }
+]

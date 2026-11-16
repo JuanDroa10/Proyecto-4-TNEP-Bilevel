@@ -1,0 +1,8 @@
+Python: 3.14.7
+Platform: Windows-11-10.0.26300-SP0
+NumPy: 2.5.3
+pandas: 3.0.5
+SciPy: 1.18.1
+Pyomo: 6.10.1
+HiGHS: 1.15.1
+Pyomo appsi_highs availability: FullLicense

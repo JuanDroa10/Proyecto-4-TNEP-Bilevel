@@ -1,0 +1,43 @@
+{
+  "termination": "optimal",
+  "objective_eur": 740478504.9045975,
+  "investment_eur": 22987720.0,
+  "investment_MEUR": 22.98772,
+  "crf": 0.1,
+  "plan": [
+    {
+      "from_bus": 6,
+      "to_bus": 10,
+      "slot": 2
+    },
+    {
+      "from_bus": 10,
+      "to_bus": 11,
+      "slot": 1
+    },
+    {
+      "from_bus": 11,
+      "to_bus": 13,
+      "slot": 1
+    },
+    {
+      "from_bus": 14,
+      "to_bus": 23,
+      "slot": 2
+    }
+  ],
+  "scenario_social_welfare_MEUR_per_hour": {
+    "1": 0.0839733010133016,
+    "2": 0.0827898706413163,
+    "3": 0.08843123368121183
+  },
+  "expected_social_welfare_MEUR_per_year": 742.7772769045976,
+  "solver": "HiGHS via Pyomo appsi_highs",
+  "formulation": "Pyomo core.lp_dual + strong duality + McCormick",
+  "gamma_max_dual": 1000.0,
+  "max_dual_value": 1000.0,
+  "dual_values_at_gamma_max": 115,
+  "linearized_binary_dual_products": 1020,
+  "strong_duality_residual_eur_per_hour": -8.232018444687128e-08,
+  "wall_time_s": 62.80886069999997
+}

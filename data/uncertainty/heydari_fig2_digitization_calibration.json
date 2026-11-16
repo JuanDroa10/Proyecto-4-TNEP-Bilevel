@@ -1,0 +1,21 @@
+{
+  "source": "HVDC HVAC.pdf, PDF page 8, Figure 2",
+  "rendering": "Poppler pdftoppm -r 400",
+  "plot_time_axis_approx_pixel_x": [143, 258, 606, 953, 1068, 1155],
+  "load_block_time_boundaries_h": [0, 1000, 4000, 7000, 8000, 8760],
+  "load_plot_pixel_calibration": {
+    "crop_origin_full_page_px": [350, 2670],
+    "x_pixel_at_0_h": 143,
+    "x_pixel_at_8760_h": 1155,
+    "y_pixel_at_1_pu": 316,
+    "y_pixel_at_0_2_pu": 1201
+  },
+  "wind_plot_pixel_calibration": {
+    "crop_origin_full_page_px": [350, 1950],
+    "x_pixel_at_0_h": 143,
+    "x_pixel_at_8760_h": 1155,
+    "y_pixel_at_0_7_pu": 359,
+    "y_pixel_at_0_pu": 768
+  },
+  "note": "The article plot is a low-resolution graphic. Axis line thickness, rasterization, and manual center selection imply about ±0.01 pu uncertainty; block-hour boundaries are also approximate."
+}

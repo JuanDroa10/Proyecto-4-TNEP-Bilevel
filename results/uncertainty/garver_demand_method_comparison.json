@@ -1,0 +1,203 @@
+[
+  {
+    "method": "duration_curve_5_segments",
+    "points": [
+      {
+        "scenario_id": "L1",
+        "load_factor_pu": 0.914,
+        "weight": 0.1141552511415525
+      },
+      {
+        "scenario_id": "L2",
+        "load_factor_pu": 0.773,
+        "weight": 0.3424657534246575
+      },
+      {
+        "scenario_id": "L3",
+        "load_factor_pu": 0.634,
+        "weight": 0.3424657534246575
+      },
+      {
+        "scenario_id": "L4",
+        "load_factor_pu": 0.479,
+        "weight": 0.1141552511415525
+      },
+      {
+        "scenario_id": "L5",
+        "load_factor_pu": 0.334,
+        "weight": 0.0867579908675799
+      }
+    ],
+    "input": {
+      "source": "manual digitization of Heydari Fig. 2 load curve",
+      "n_scenarios": 5
+    },
+    "optimization": {
+      "termination": "optimal",
+      "objective_eur": 190085702.08390257,
+      "investment_eur": 15446399.99999999,
+      "investment_MEUR": 15.44639999999999,
+      "crf": 0.1,
+      "plan": [
+        {
+          "from_bus": 2,
+          "to_bus": 6,
+          "slot": 1
+        },
+        {
+          "from_bus": 2,
+          "to_bus": 6,
+          "slot": 2
+        },
+        {
+          "from_bus": 3,
+          "to_bus": 5,
+          "slot": 2
+        }
+      ],
+      "scenario_social_welfare_MEUR_per_hour": {
+        "L1": 0.029180323999999928,
+        "L2": 0.02500698800000007,
+        "L3": 0.020843104000000008,
+        "L4": 0.016114154243902442,
+        "L5": 0.011559984
+      },
+      "expected_social_welfare_MEUR_per_year": 191.63034208390258,
+      "solver": "HiGHS via Pyomo appsi_highs",
+      "objective_mode": "aligned_welfare",
+      "wall_time_s": 1.564858299999969
+    }
+  },
+  {
+    "method": "hong_2n1_pem",
+    "points": [
+      {
+        "scenario_id": "PEM_L",
+        "load_factor_pu": 0.3767812130075405,
+        "weight": 0.16837736600665582
+      },
+      {
+        "scenario_id": "PEM_M",
+        "load_factor_pu": 0.6698447488584475,
+        "weight": 0.5968423223153956
+      },
+      {
+        "scenario_id": "PEM_H",
+        "load_factor_pu": 0.8800210872704498,
+        "weight": 0.23478031167794858
+      }
+    ],
+    "input": {
+      "random_variables": 1,
+      "moments_matched": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "n_scenarios": 3
+    },
+    "optimization": {
+      "termination": "optimal",
+      "objective_eur": 190105981.8211211,
+      "investment_eur": 15446399.99999934,
+      "investment_MEUR": 15.44639999999934,
+      "crf": 0.1,
+      "plan": [
+        {
+          "from_bus": 2,
+          "to_bus": 6,
+          "slot": 1
+        },
+        {
+          "from_bus": 2,
+          "to_bus": 6,
+          "slot": 3
+        },
+        {
+          "from_bus": 3,
+          "to_bus": 5,
+          "slot": 2
+        }
+      ],
+      "scenario_social_welfare_MEUR_per_hour": {
+        "PEM_L": 0.012906565460625257,
+        "PEM_M": 0.021916869296803677,
+        "PEM_H": 0.028212911690273772
+      },
+      "expected_social_welfare_MEUR_per_year": 191.65062182112104,
+      "solver": "HiGHS via Pyomo appsi_highs",
+      "objective_mode": "aligned_welfare",
+      "wall_time_s": 0.3748241999999209
+    }
+  },
+  {
+    "method": "monte_carlo_then_reduction",
+    "points": [
+      {
+        "scenario_id": "MC_R1",
+        "load_factor_pu": 0.4160653778040141,
+        "weight": 0.20328000000000002,
+        "members": 2,
+        "weighted_squared_error": 0.0010498911011289842
+      },
+      {
+        "scenario_id": "MC_R2",
+        "load_factor_pu": 0.634,
+        "weight": 0.34027,
+        "members": 1,
+        "weighted_squared_error": 0.0
+      },
+      {
+        "scenario_id": "MC_R3",
+        "load_factor_pu": 0.8077271771278344,
+        "weight": 0.45645,
+        "members": 2,
+        "weighted_squared_error": 0.0016845538953677297
+      }
+    ],
+    "input": {
+      "seed": 20261106,
+      "draws": 100000,
+      "unique_draws": 5,
+      "reduced_scenarios": 3,
+      "reduction": "optimal weighted 1-D k-means",
+      "exact_duration_mean_load_factor": 0.6698447488584475,
+      "monte_carlo_sample_mean_load_factor": 0.6689960199999998,
+      "monte_carlo_mean_standard_error": 0.0004994100106577594
+    },
+    "optimization": {
+      "termination": "optimal",
+      "objective_eur": 190093906.14242408,
+      "investment_eur": 13515600.000000007,
+      "investment_MEUR": 13.515600000000008,
+      "crf": 0.1,
+      "plan": [
+        {
+          "from_bus": 2,
+          "to_bus": 3,
+          "slot": 2
+        },
+        {
+          "from_bus": 2,
+          "to_bus": 6,
+          "slot": 1
+        },
+        {
+          "from_bus": 3,
+          "to_bus": 5,
+          "slot": 2
+        }
+      ],
+      "scenario_social_welfare_MEUR_per_hour": {
+        "MC_R1": 0.01414307383175915,
+        "MC_R2": 0.020843103999999998,
+        "MC_R3": 0.026042760917515624
+      },
+      "expected_social_welfare_MEUR_per_year": 191.44546614242404,
+      "solver": "HiGHS via Pyomo appsi_highs",
+      "objective_mode": "aligned_welfare",
+      "wall_time_s": 0.47924510000007103
+    }
+  }
+]

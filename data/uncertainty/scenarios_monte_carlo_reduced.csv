@@ -1,0 +1,4 @@
+scenario_id,load_factor_pu,weight,members,weighted_squared_error,method
+MC_R1,0.4160653778040141,0.20328000000000002,2,0.0010498911011289842,monte_carlo_reduced
+MC_R2,0.634,0.34027,1,0.0,monte_carlo_reduced
+MC_R3,0.8077271771278344,0.45645,2,0.0016845538953677297,monte_carlo_reduced

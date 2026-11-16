@@ -1,0 +1,4 @@
+scenario,weight,scenario_demand_factors,source
+1,0.50,"1.0: buses 1-24",Garces2009_TableVII_p1520
+2,0.25,"1.1: buses 1-10",Garces2009_TableVII_p1520
+3,0.25,"1.0: buses 1-10; 1.2: buses 11-24",Garces2009_TableVII_p1520

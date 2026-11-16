@@ -1,0 +1,4 @@
+bus,unit,block1_mw,block2_mw,block3_mw,offer1_eur_mwh,offer2_eur_mwh,offer3_eur_mwh,source
+1,G1,60,45,45,60,65,68,Garces2009_TableII_p1518
+3,G2,144,108,108,65,68,70,Garces2009_TableII_p1518
+6,G3,240,180,180,70,75,80,Garces2009_TableII_p1518

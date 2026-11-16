@@ -1,0 +1,6 @@
+case,approach,scenario,plan,total_investment_MEUR,scenario_social_welfare_MEUR,average_social_welfare_MEUR,solver_time,solver_time_unit,source
+no_contingencies,bilevel,all,"6-10;10-11;11-13;14-23",22.99,,742.59,89.51,s,Garces2009_TableVIII_p1520
+no_contingencies,cost_min,1,"6-7;7-8;13-14",9.02,587.83,-2430.44,2.68,s,Garces2009_TableVIII_p1520
+no_contingencies,cost_min,2,"6-7(2);7-8;2-8;11-13",17.48,606.54,687.17,40.29,s,Garces2009_TableVIII_p1520
+no_contingencies,cost_min,3,"6-10;7-8(2);13-14",9.13,621.62,-1399.75,2.68,s,Garces2009_TableVIII_p1520
+multicontingency,bilevel,22_scenarios,"3-9;6-10;7-8(2);10-11;11-13;13-14",28.64,,717.97,5.43,h,Garces2009_TableX_p1521

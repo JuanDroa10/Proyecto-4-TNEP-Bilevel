@@ -1,0 +1,6 @@
+bus,demand,block1_mw,block2_mw,block3_mw,bid1_eur_mwh,bid2_eur_mwh,bid3_eur_mwh,minimum_fraction,source
+1,D1,72,4,4,112.5,82,80,0.9,Garces2009_TableII_p1518
+2,D2,216,12,12,115,75,72,0.9,Garces2009_TableII_p1518
+3,D3,36,2,2,120,80,70,0.9,Garces2009_TableII_p1518
+4,D4,144,8,8,110,85,75,0.9,Garces2009_TableII_p1518
+5,D5,216,12,12,112,80,76,0.9,Garces2009_TableII_p1518

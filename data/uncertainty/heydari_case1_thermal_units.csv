@@ -1,0 +1,3 @@
+bus,unit,block1_mw,block2_mw,block3_mw,offer1_usd_mwh,offer2_usd_mwh,offer3_usd_mwh,source
+4,additional_thermal_1,200,150,150,71.5,76,80,Heydari2024_section4.1.1_p9
+6,additional_thermal_2,200,150,150,71.5,76,80,Heydari2024_section4.1.1_p9

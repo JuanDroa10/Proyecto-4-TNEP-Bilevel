@@ -1,0 +1,5 @@
+case,upper_level_objective_MUSD,hvac_plan,hvdc_plan,expected_social_welfare_MUSD,investment_total_MUSD,investment_HVAC_MUSD,investment_HVDC_MUSD,source
+1,442.81,"2-6(4);3-5(3)",,462.64,180,180,0,Heydari2024_Table4_p9
+2,489.94,"2-6(4);3-5(2);4-6(2);5-6(2)",,527.62,342,342,0,Heydari2024_Table4_p9
+3,492.98,"2-6(4);3-5(3);3-6(1);4-6(2)","2-6(1)",530.73,342.6,288,54.6,Heydari2024_Table4_p9
+4,1652.41,"2-6(4);3-5(3);4-6(3)","2-6(1)",526.25,324.6,270,54.6,Heydari2024_Table4_p9

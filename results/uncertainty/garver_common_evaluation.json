@@ -1,0 +1,125 @@
+[
+  {
+    "method": "duration_curve_5_segments",
+    "plan": [
+      {
+        "from_bus": 2,
+        "to_bus": 6,
+        "slot": 1
+      },
+      {
+        "from_bus": 2,
+        "to_bus": 6,
+        "slot": 2
+      },
+      {
+        "from_bus": 3,
+        "to_bus": 5,
+        "slot": 2
+      }
+    ],
+    "objective_on_own_scenarios_MEUR_per_year": 190.08570208390256,
+    "common_reference": "the original five load-duration states and duration_hours/8760 weights",
+    "common_expected_social_welfare_MEUR_per_year": 191.63034208390246,
+    "annualized_investment_MEUR_per_year": 1.5446399999999991,
+    "common_net_objective_MEUR_per_year": 190.08570208390248,
+    "per_state_social_welfare_MEUR_per_year_if_full_year": {
+      "L1": 255.61963824000006,
+      "L2": 219.06121488000008,
+      "L3": 182.58559104,
+      "L4": 141.1599911765854,
+      "L5": 101.26545983999999
+    },
+    "per_state_load_shed_mw": {
+      "L1": 0,
+      "L2": 0,
+      "L3": 0,
+      "L4": 0,
+      "L5": 0
+    },
+    "solver": "SciPy HiGHS linprog (independent fixed-plan LP)",
+    "regret_vs_five_state_optimum_MEUR_per_year": 0.0
+  },
+  {
+    "method": "hong_2n1_pem",
+    "plan": [
+      {
+        "from_bus": 2,
+        "to_bus": 6,
+        "slot": 1
+      },
+      {
+        "from_bus": 2,
+        "to_bus": 6,
+        "slot": 3
+      },
+      {
+        "from_bus": 3,
+        "to_bus": 5,
+        "slot": 2
+      }
+    ],
+    "objective_on_own_scenarios_MEUR_per_year": 190.1059818211211,
+    "common_reference": "the original five load-duration states and duration_hours/8760 weights",
+    "common_expected_social_welfare_MEUR_per_year": 191.63034208390246,
+    "annualized_investment_MEUR_per_year": 1.544639999999934,
+    "common_net_objective_MEUR_per_year": 190.08570208390253,
+    "per_state_social_welfare_MEUR_per_year_if_full_year": {
+      "L1": 255.61963824000006,
+      "L2": 219.06121488000008,
+      "L3": 182.58559104,
+      "L4": 141.1599911765854,
+      "L5": 101.26545983999999
+    },
+    "per_state_load_shed_mw": {
+      "L1": 0,
+      "L2": 0,
+      "L3": 0,
+      "L4": 0,
+      "L5": 0
+    },
+    "solver": "SciPy HiGHS linprog (independent fixed-plan LP)",
+    "regret_vs_five_state_optimum_MEUR_per_year": -5.684341886080802e-14
+  },
+  {
+    "method": "monte_carlo_then_reduction",
+    "plan": [
+      {
+        "from_bus": 2,
+        "to_bus": 3,
+        "slot": 2
+      },
+      {
+        "from_bus": 2,
+        "to_bus": 6,
+        "slot": 1
+      },
+      {
+        "from_bus": 3,
+        "to_bus": 5,
+        "slot": 2
+      }
+    ],
+    "objective_on_own_scenarios_MEUR_per_year": 190.0939061424241,
+    "common_reference": "the original five load-duration states and duration_hours/8760 weights",
+    "common_expected_social_welfare_MEUR_per_year": 25.319755839999168,
+    "annualized_investment_MEUR_per_year": 1.351560000000001,
+    "common_net_objective_MEUR_per_year": 23.96819583999917,
+    "per_state_social_welfare_MEUR_per_year_if_full_year": {
+      "L1": -1201.3473811200072,
+      "L2": 219.06121488000008,
+      "L3": 182.58559103999994,
+      "L4": 141.24627504000003,
+      "L5": 101.26545984000002
+    },
+    "per_state_load_shed_mw": {
+      "L1": 15.176000000000073,
+      "L2": 0,
+      "L3": 0,
+      "L4": 0,
+      "L5": 0
+    },
+    "solver": "SciPy HiGHS linprog (independent fixed-plan LP)",
+    "regret_vs_five_state_optimum_MEUR_per_year": 166.1175062439033
+  }
+]

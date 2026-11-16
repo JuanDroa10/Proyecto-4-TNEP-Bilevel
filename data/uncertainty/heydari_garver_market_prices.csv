@@ -1,0 +1,7 @@
+bus,generator_offer1_usd_mwh,generator_offer2_usd_mwh,generator_offer3_usd_mwh,demand_bid1_usd_mwh,demand_bid2_usd_mwh,demand_bid3_usd_mwh,source
+1,66,71.5,74.8,123.75,90.2,88,Heydari2024_Table3_p9
+2,,,,126.5,82.5,79.2,Heydari2024_Table3_p9
+3,71.5,74.8,77,132,88,77,Heydari2024_Table3_p9
+4,,,,121,93.5,82.5,Heydari2024_Table3_p9
+5,,,,123.2,88,83.6,Heydari2024_Table3_p9
+6,77,82.5,88,,,,Heydari2024_Table3_p9

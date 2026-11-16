@@ -1,0 +1,22 @@
+{
+  "case": "Garver 6-bus, Garces et al. (2009), Table I-III",
+  "currency": "EUR",
+  "investment_cost_unit": "kEUR",
+  "power_unit": "MW",
+  "energy_price_unit": "EUR/MWh",
+  "investment_budget_kEUR": 30000,
+  "annual_hours_sigma": 8760,
+  "minimum_demand_fraction": 0.9,
+  "load_shedding_penalty_multiplier": 100,
+  "interest_rate": 0.1,
+  "investment_lifetime_years": 25,
+  "capital_recovery_factor_exact": 0.110168,
+  "capital_recovery_factor_report_reproduction": 0.1,
+  "big_m_angle": 1000,
+  "gamma_max_dual": 1000,
+  "max_circuits_per_corridor": 3,
+  "network_base_mva": 100,
+  "network_base_mva_status": "inferred and cross-checked: this scaling reproduces Garces Table IV plan, investment, and average welfare to rounding precision",
+  "source": "Garces2009_pp1517-1518",
+  "transcription_status": "preliminary"
+}
